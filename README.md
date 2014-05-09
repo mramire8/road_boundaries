@@ -13,7 +13,7 @@ This code requires:
 Directories: 
 <current_directory>
 |__ road_boudary
-	|__road.py	—> main application
+	|__road.py	ï¿½> main application
 
 
 # TO RUN
