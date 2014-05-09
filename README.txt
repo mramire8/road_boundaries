@@ -1,11 +1,4 @@
 README
---------------
-Maria E. Ramirez
-A20247660
-mramire8@hawk.iit.edu
-Spring 2014
-CS595 - Geospatial vision and visualization
-Class Project: Boundary detection
 -------------------------------------------------
 
 # REQUIREMENTS
