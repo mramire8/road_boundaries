@@ -24,10 +24,10 @@ This code requires:
 To execute the road boundary detector: 
 
 usage: 
-'''
-speed.py [-h] [--max-iterations MAX_ITERATIONS]
+
+    speed.py [-h] [--max-iterations MAX_ITERATIONS]
                 INPUT_FOLDER
-'''
+
 
 positional arguments:
 
@@ -43,15 +43,15 @@ optional arguments:
 
 ## Examples: 
  
- *Search for boundaries in only the first batch:*
- '''
- python road.py /path/to/street/view/images --max-iterations 1
- '''
+ **Search for boundaries in only the first batch:**
 
- *Search for boundaries in first 10 batches (total of 200 files):*
- '''
- python road.py /path/to/street/view/images --max-iterations 10
- '''
+    python road.py /path/to/street/view/images --max-iterations 1
+ 
+
+ **Search for boundaries in first 10 batches (total of 200 files):**
+
+    python road.py /path/to/street/view/images --max-iterations 10
+ 
  
 ### OUTPUT EXAMPLES:
 
