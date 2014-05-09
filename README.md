@@ -1,22 +1,21 @@
 #README
--------------------------------------------------
 
 ## REQUIREMENTS
 
 This code requires: 
 	- python 2.7 
-	- scipy full pack
+	- scipy 
 	- skimage
 	- OpenCV
 	- pyproj
 
-Directories: 
+## Directories: 
 
-<current_directory>
+ <current_directory>
 
-|__ road_boudary
+ |__ road_boudary
 
-	|__road.py    main application
+  |__road.py    main application
 	
 
 
@@ -24,8 +23,11 @@ Directories:
 
 To execute the road boundary detector: 
 
-usage: speed.py [-h] [--max-iterations MAX_ITERATIONS]
+usage: 
+'''
+speed.py [-h] [--max-iterations MAX_ITERATIONS]
                 INPUT_FOLDER
+'''
 
 positional arguments:
 
@@ -41,16 +43,18 @@ optional arguments:
 
 ## Examples: 
  
- ### Search for boundaries in only the first batch:
- 
+ *Search for boundaries in only the first batch:*
+ '''
  python road.py /path/to/street/view/images --max-iterations 1
- 
- ### Search for boundaries in first 10 batches (total of 200 files):
- 
+ '''
+
+ *Search for boundaries in first 10 batches (total of 200 files):*
+ '''
  python road.py /path/to/street/view/images --max-iterations 10
- 
+ '''
  
 ### OUTPUT EXAMPLES:
+
 Dimensions: (94363,)
 
 Latitude: min:4533075.40174, max:4533159.03042, avg:4533137.23384, stdev:8.96149956075
